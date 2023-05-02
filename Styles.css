@@ -1,6 +1,8 @@
 h1 {
   color: orange;
   text-align: center;
+  font-family: "Georgia";
+  font-size: 25px;
 }
 
 body {
@@ -9,8 +11,22 @@ body {
 }
 
 p {
-  color: red;
-  font-family: "Brush Script MT";
+  color: black;
+  font-family: "Georgia";
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 400px;
+  height: autopx;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
 }
